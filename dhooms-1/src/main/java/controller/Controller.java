@@ -25,7 +25,7 @@ public class Controller {
 	@RequestMapping(value="/products", method= RequestMethod.GET)
 	public @ResponseBody List<Product>getAllProducts()
 	{
-		System.out.println("in controller");
+		System.out.println("in controller madeh ahe");
 		//return pls.productListAllRecords();
 		return pldi.productListAllRecords();
 	}
