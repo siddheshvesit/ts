@@ -25,7 +25,7 @@ public class Controller {
 	@RequestMapping(value="/products", method= RequestMethod.GET)
 	public @ResponseBody List<Product>getAllProducts()
 	{
-		System.out.println("in controller ts che repository");
+		System.out.println("in controller ts che repository branch2");
 		//return pls.productListAllRecords();
 		return pldi.productListAllRecords();
 	}
